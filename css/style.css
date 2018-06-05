@@ -19,7 +19,7 @@ padding-top:20px;
    color:#ffffff;
 }
 #text{
-    padding-top: 180px;
+    padding-top: 100px;
     color: #ffffff;
     text-align: center;
 }
@@ -53,71 +53,44 @@ padding-top:20px;
     }
 }
 #mid{
-    padding-top:50px;
-    padding-bottom: 150px;
+    padding-top:20px;
+    padding-bottom: 80px;
+    background-color: #c4c4c4;
+    
 }
 #our{
     text-align: center;
     color:#01357B;
     padding: 20px;
-    font-size:50px;
+    /* font-size:50px; */
 }
 #range{
     color:#01357B;
     padding-top:20px;
-    margin-bottom:0px;
     font-weight:bolder;
 }
 #next{
     margin-bottom: 0px;
 }
-/* count down */
-/* #shiva
+#circle
 {
-  width: 100px;
-	height: 100px;
+  	width: 120px;
+	height: 120px;
 	background: red;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
-  float:left;
-  margin:5px;
+	float:left;
+ 	margin:5px;
 }
 .count
 {
-  line-height: 100px;
-  color:white;
+  line-height: 80px;
+  color:#01357B;
   margin-left:30px;
   font-size:25px;
+  text-align: center;
 }
-#talkbubble {
-   width: 120px;
-   height: 80px;
-   background: red;
-   position: relative;
-   -moz-border-radius:    10px;
-   -webkit-border-radius: 10px;
-   border-radius:         10px;
-  float:left;
-  margin:20px;
-}
-#talkbubble:before {
-   content:"";
-   position: absolute;
-   right: 100%;
-   top: 26px;
-   width: 0;
-   height: 0;
-   border-top: 13px solid transparent;
-   border-right: 26px solid red;
-   border-bottom: 13px solid transparent;
-}
-
-.linker
-{
-  font-size : 20px;
-  font-color: black;
-} */
 
 #lists{
     font-size:22px;
@@ -156,4 +129,72 @@ padding-top:20px;
 #copy{
     color:#ffffff;
     font-size:20px;
+}
+#search_botton{
+    margin-top:50px;
+}
+/* #sub{ 
+    background: url(../images/africaworld.jpg) no-repeat; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+} */
+
+/* .bg-overlay {
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("../images/africaworld.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 450px;
+    padding-top: 50px;
+} */
+
+#h2{
+	position: relative;
+}
+#h2::after{
+	content: "";
+	width: 130px;
+	position: absolute;
+	margin: 0 auto;
+	height: 3px;
+	background: #01357B;
+	left: 0;
+	right: 0;
+	bottom: -10px;
+}
+.carousel-inner .carousel-item .img-box{
+	width: 135px;
+	height: 135px;
+}
+.carousel-control-prev{
+	left: -100px;
+}
+.carousel-control-next{
+	right: -100px;
+}
+.carousel-indicators{
+	top: 320px;
+}
+@media (min-width: 320px) and (max-width: 640px) {
+	.carousel-inner .carousel-item p{
+		font-size: 14px;
+	}
+	.carousel-control-prev{
+		left: -40px;
+	}
+	.carousel-control-next{
+		right: -40px;
+	}
+ 	.carousel-indicators{
+		top: 400px;
+	}
+}
+#new{
+    text-align: justify;
+}
+#roll{
+
 }
